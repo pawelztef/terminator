@@ -1,0 +1,71 @@
+[global_config]
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+  copy = <Primary>c
+  paste = <Primary>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Atom
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      profile = Atom
+      type = Window
+  [[New Layout]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = ff360312-0c2b-4e89-bbd2-ea5b958b81af
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:1039
+      size = 638, 783
+      title = pawelztef@pawelztef-Inspiron: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 699
+      ratio = 0.895913154534
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 505
+      ratio = 0.795454545455
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = Atom
+      type = Terminal
+      uuid = 2b3156c2-74f5-425f-b9b2-b0a68a212b7b
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = Atom
+      type = Terminal
+      uuid = ff360312-0c2b-4e89-bbd2-ea5b958b81af
+    [[[terminal5]]]
+      order = 1
+      parent = child1
+      profile = Atom
+      type = Terminal
+      uuid = ff4af630-f7dc-490f-9003-f0263e012fb5
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    show_titlebar = False
+  [[Atom]]
+    background_color = "#161719"
+    background_image = None
+    cursor_color = "#d0d0d0"
+    font = Ubuntu Mono 11
+    foreground_color = "#c5c8c6"
+    palette = "#000000:#fd5ff1:#87c38a:#ffd7b1:#85befd:#b9b6fc:#85befd:#e0e0e0:#000000:#a8ff60:#94fa36:#f5ffa8:#96cbfe:#b9b6fc:#85befd:#e0e0e0"
+    show_titlebar = False
+    use_system_font = False
